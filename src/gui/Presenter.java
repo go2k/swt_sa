@@ -13,7 +13,6 @@ public class Presenter implements Observer {
     private View view;
     private Model model;
 
-
     public Presenter() {
         view = new View();
         implementMethods();

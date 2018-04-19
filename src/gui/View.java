@@ -13,8 +13,7 @@ public class View extends JFrame implements IView {
 
     public View() {
 
-        // Layout und sonstige Fenstereigenschaften
-        label = new JLabel("");
+        label = new JLabel();
         label.setHorizontalAlignment(JLabel.CENTER);
         buttonWuerfeln = new JButton();
         buttonUmdrehen = new JButton();
@@ -26,7 +25,6 @@ public class View extends JFrame implements IView {
         setSize(320, 150);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
-
     }
 
     @Override
