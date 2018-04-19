@@ -8,4 +8,8 @@ public interface IModel {
 
     public void umdreheneWuerfel();
 
+    public String getButtonWuerfelnText();
+
+    public String getButtonUmdrehenText();
+
 }

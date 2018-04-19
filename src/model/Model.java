@@ -37,6 +37,17 @@ public class Model extends Observable implements IModel {
         setText();
     }
 
+    @Override
+    public String getButtonWuerfelnText() {
+        return "Würfeln";
+    }
+
+    @Override
+    public String getButtonUmdrehenText() {
+        return "Umdrehen";
+
+    }
+
     private void setText() {
         text = "<html><body><ul>"
                 + "<li>Würfel 1: " + wuerfel1 + "</li>"

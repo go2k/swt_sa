@@ -16,11 +16,11 @@ public class Presenter implements Observer {
 
     public Presenter() {
         view = new View();
-        view.setButtonUmdrehenText("Umdrehen");
-        view.setButtonWuerfelnText("Würfeln");
         implementMethods();
         model = new Model();
         model.addObserver(this);
+        view.setButtonUmdrehenText(model.getButtonUmdrehenText());
+        view.setButtonWuerfelnText(model.getButtonWuerfelnText());
         model.wuerfeln();
     }
 
