@@ -75,7 +75,7 @@ public class ZweiWuerfel extends JFrame {
     }
     
     // Main
-    public static void main(String[] args) {
-        new ZweiWuerfel();        
-    }
+   // public static void main(String[] args) {
+        // new ZweiWuerfel();
+   // }
 }
